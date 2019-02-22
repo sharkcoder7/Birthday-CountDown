@@ -1,5 +1,23 @@
 .picker {
     grid-column: 5/10;
     grid-row: 2/4;
-    background-color: cornflowerblue;
+    //background-color: cornflowerblue;
+
+    padding-bottom: 50px;
+
+
+    input {
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px solid #E3b924;
+        text-align: center;
+        font-size: 80px;
+        font-family: "Roboto Condensed";
+        font-weight: bold;
+        color: $color-gray-one;
+
+        &:focus {
+            outline: none;
+        }
+    }
 }
