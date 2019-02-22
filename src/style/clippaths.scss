@@ -27,13 +27,6 @@
 }
 
 .grid {
-    &__skew-dark-one-box {
-        z-index: -10;
-        background-color: $color-blue-two;
-        grid-column:1/3;
-        grid-row: 1/5;
-
-    }
 
     &__skew-dark-two {
         z-index: -2;
@@ -45,9 +38,4 @@
         clip-path: polygon(0 0, 100% 0%, 50% 100%, 0 100%);
         
     }
-
-    &__skew-dark-three {
-        
-    }
-
 }

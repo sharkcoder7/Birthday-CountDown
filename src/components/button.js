@@ -2,7 +2,7 @@ import React from 'react';
 
 const Button = (title, callback) => {
     return (
-        <button className="button" onClick={callback}>
+        <button key={1} className="button" onClick={callback}>
             {title}
         </button>
     )
