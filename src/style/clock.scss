@@ -1,0 +1,11 @@
+.clock {
+    grid-row: 3/4;
+    grid-column: 2/11;
+
+    background-color: $color-gray-one;
+    height: 80%;
+    align-self: end;
+
+    -webkit-clip-path: polygon(7% 0, 100% 0, 93% 100%,0% 100%);
+    clip-path: polygon(7% 0, 100% 0, 93% 100%,0% 100%);
+}
