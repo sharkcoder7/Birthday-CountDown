@@ -4,7 +4,7 @@
     justify-self: start;
 
     font-size: 24px;
-    font-family: "Roboto-Condensed";
+    font-family: $font-roboto;
     line-height: line-height 19px;
     text-align: center;
     color: white;
@@ -13,10 +13,14 @@
     background-color: transparent;
     border: none;
 
-    transform: rotate(-73deg) translate(-70px, -70px);
+    transform: rotate(-66deg) translate(-60px, -60px);
+
+    &:focus {
+        outline: none;
+    }
 
     i {
-        margin-right: 20px;
+        margin-right: 22px;
     }
 
 }
