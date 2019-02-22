@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Picker from './picker';
 
 export default class App extends Component {
   render() {
@@ -12,6 +13,8 @@ export default class App extends Component {
         <div className="grid__skew-light-one"></div>
         <div className="grid__skew-light-two"></div>
         <div className="grid__skew-light-three-box"></div>
+
+        <Picker/>
       </div>
     );
   }
