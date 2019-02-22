@@ -9,6 +9,7 @@ $color-gray-one: #444;
     display: grid;
     grid-template-rows: repeat(4, minmax(200px, 1fr));
     grid-template-columns: repeat(10, minmax(150px, 1fr));
+    
 
     &__title {
         grid-row: 1/2;
